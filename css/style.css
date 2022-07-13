@@ -20,3 +20,223 @@ html{
     font-size: 62.5%;
     font-family: var(--fuentePrimaria)
 }
+
+
+
+.header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 32rem;
+    height: 34rem;
+    text-align: center;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+}
+
+.header__img{
+    width: 15rem;
+    height: 2.5rem;
+    align-self: center;
+    margin-top: 6rem;
+}
+
+.header__info{
+    width: 90%;
+    min-width: 28.8rem;
+    max-width: 90rem;
+    height: 21.8rem;
+    margin-top: 5rem;
+    text-align:center;
+    align-self: center;
+}
+
+.header__info--title{
+    color:var(--just-white);
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+}
+
+.header__info--parrafo{
+    margin-top:2.5rem;
+    font-size: 500;
+    color: var(--soft-orange);    
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+.header__info--button{
+    position: absolute;
+    left: calc(50% - 115px);
+    top: 281px;
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 23rem;
+    height: 4.8rem;
+    background-color: var(--off-white);
+    /* Sombra */
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    text-decoration: none;
+    border-radius:5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--warm-black);
+}
+
+.header__info--button span{
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url("../assets/icons/down-arrow.svg");
+}
+
+main{
+    width:100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+
+
+.cripto__container{
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    padding-bottom:3rem;
+    text-align:center;
+}
+
+.cripto__info{
+    width: 90%;
+    min-width: 29rem;
+    max-width: 90rem;
+    margin:0 auto;
+}
+
+.cripto__img{
+    height: 20rem;
+    width: 20rem;
+    margin:0 auto;
+    background-image:url("../assets/img/Bitcoin.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-bottom:5rem;
+}
+
+.cripto__info-title{
+    font-size:2.4rem;
+    font-weight: bold;
+    margin-top:3rem;
+    line-height: 2.6rem;
+    color:var(--black);
+    margin-bottom:2rem;
+}
+.cripto__info-parrafo{
+    margin-bottom:3rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color:#757575;
+}
+
+.tabla_container{
+    width: 73%;
+    height: auto;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabla__title{
+    color: var(--bitcoin-orange);
+    text-align:left;
+    font-size:2.2rem;
+    margin-left: 1.5rem;
+    margin-bottom:1rem;
+    width: 240px;
+    margin: 0 auto;
+}
+.tabla__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--just-white);
+    border: 1px solid #e5e5e5;
+    border-radius: 1rem;
+    min-width: 23.5rem;
+    max-width: 30rem;
+    height: 194px;
+}
+
+.tabla__grid--title,
+.tabla__grid--precio{
+    font-size:1.6rem;
+    color:#B5B0AC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    
+}
+.tabla__grid--precio span{
+    margin-left: 1rem;
+    height: 8px;
+    width: 12px;
+    background-image: url("../assets/icons/trending-down.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.tabla__grid--precio .up-down{
+    margin-left: 1rem;
+    height: 8px;
+    width: 12px;
+    background-image: url("../assets/icons/trending-up.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.tabla-info{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:2rem;
+    background-color: var(--soft-orange);
+    height: 3rem;
+    align-self: center;
+    width: 20rem;
+    font-size: 1.3rem;
+    border-radius: 8px ;
+}
+
+.table-image{
+    position: relative;
+    top: 106px;
+    left: 135px;
+    width: 12px;
+    height: 8px;
+    background-image: url("../assets/icons/down-arrow.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    rotate: 270deg;
+}
+
+
+.tabla__title--blue{
+    margin-top: 5rem;
+    color: var(--secondary-blue);
+}
+.tabla-info--blue{
+    background-color: var(--soft-blue);
+}
